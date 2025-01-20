@@ -1,7 +1,7 @@
 
 var aText = new Array(
     "Hi,",
-    "I am Kartik,",
+    "I am Harshit,",
     "Nice to see you here."
     );
     var iSpeed = 100; 

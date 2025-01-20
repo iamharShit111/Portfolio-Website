@@ -1,8 +1,9 @@
-import Data from './data.js'
+import Data from "./data.js";
 
-function start(){
-    document.getElementById('mainproject').innerHTML = Data.map((data,index) => 
-        `  
+function start() {
+  document.getElementById("mainproject").innerHTML = Data.map(
+    (data, index) =>
+      `  
                 <div key=${index} class="indi">
                     <img class="img" src=${data.img} alt='project_img' width="400" height="240" />
                     <span class="details">${data.name}</span>
@@ -13,7 +14,6 @@ function start(){
                 </div>
             
         `
-    ).join('')
-
+  ).join("");
 }
-start()
+start();
